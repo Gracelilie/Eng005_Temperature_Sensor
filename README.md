@@ -1,6 +1,8 @@
 # ECE Lab #2: Using Temperature Sensors  
 **Grace-lilie Acheampong**  
 **Fall 2024**
+**Date Written:** 9/23/2024  
+**Date Updated:** 9/25/2024
 
 ## Project Overview:
 This project aims to measure the internal and external temperatures of a microcontroller, both before and after adding a resistor. The experiment focuses on analyzing how electrical parameters (voltage, current, and resistance) influence the temperature measurements and how to use these values for sensor calibration.
@@ -22,11 +24,12 @@ This project aims to measure the internal and external temperatures of a microco
    - Use a DMM connected in parallel to the outer legs of the transistor in series with the resistor.
    
 2. **Current:**  
-   - As the circuit is in series, measure the total current (I) by switching the red cable of the DMM to the current port.
+   - As the circuit is in series, measure the total current (I) by connecting both the red and black wires in series.
+   - Also, the red cable of the DMM is moved to the current port.
    
 3. **Resistance:**  
    - Calculate the resistance using Ohm’s Law:  
-     \[ R = \frac{V}{I} \]
+     R= V/I
 
 ### Results:
 - **Voltage Drop:** 1.311V.
@@ -35,15 +38,3 @@ This project aims to measure the internal and external temperatures of a microco
 - **Internal Temperature Sensor Reading:** 27°C.
 - **External Temperature Sensor Reading:** 44°C.
 
-### Calibration Formula:
-The calibration formula used for temperature correction is:  
-\[ T_x = T_2 + \frac{(T_1 - T_2) \cdot (R_x - R_2)}{R_1 - R_2} \]  
-Where \( T_x \) is the temperature at a given resistance \( R_x \).
-
-### Safety Rules:
-1. Avoid standing on stools, pointing sharp tools, or dropping metal objects onto powered circuits.
-2. Ensure stability when testing race cars or similar systems.
-3. Wear safety gear (glasses, gloves) when handling high-voltage circuits or soldering.
-4. Secure all cables to avoid tripping hazards.
-5. Power off circuits before disconnecting components.
-6. Ensure correct polarity when connecting power sources: red for positive, black for GND.
